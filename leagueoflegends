@@ -97,7 +97,7 @@ read_configs() {
 }
 
 export_env_variables() {
-    export PATH="/opt/wine-lol/bin:$PATH"
+    export PATH="/opt/wine-lol-staging/bin:$PATH"
     export REGFILE="/usr/share/doc/leagueoflegends/leagueoflegends.reg"
     export ICON="/usr/share/icons/hicolor/256x256/apps/leagueoflegends.png"
     export CACHE_DIR="$CACHE_HOME/leagueoflegends"
